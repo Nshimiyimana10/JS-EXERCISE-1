@@ -12,7 +12,7 @@ body {
   height: 100vh;
   background-color: orange;
   font-family: "Montserrat";
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .all-buttons {
@@ -27,9 +27,8 @@ body {
   cursor: pointer;
 }
 
-.all-buttons:hover{
-    background-color: lightblue;
-    
+.all-buttons:hover {
+  background-color: lightblue;
 }
 #show-double,
 #show-triple,
@@ -44,29 +43,29 @@ body {
   cursor: pointer;
 }
 
-#color-btn:hover{
-    background-color: olive;
-    color:white;
+#color-btn:hover {
+  background-color: olive;
+  color: white;
 }
 
-#show-double:hover{
- background-color:green ;
- color:white;
+#show-double:hover {
+  background-color: green;
+  color: white;
 }
 
-#show-triple:hover{
-    background-color:blueviolet;
-    color:white;
+#show-triple:hover {
+  background-color: blueviolet;
+  color: white;
 }
 
-#show-half:hover{
-    background-color:red;
-    color:white;
-   }
+#show-half:hover {
+  background-color: red;
+  color: white;
+}
 
-#count-clicks:hover{
-    background-color:blueviolet;
-    color:white;
+#count-clicks:hover {
+  background-color: blueviolet;
+  color: white;
 }
 #show-triple {
   background-color: greenyellow;
@@ -106,21 +105,21 @@ body {
   text-align: center;
 }
 
-.fav-btn:hover{
-    background-color:blueviolet;
+.fav-btn:hover {
+  background-color: blueviolet;
 }
 
 .count-clicks {
   background-color: paleturquoise;
 }
 
-.grouped-btn:hover{
-    background-color:purple;
+.grouped-btn:hover {
+  background-color: purple;
 }
-.count-clicks:hover{
-    background-color: grey;
+.count-clicks:hover {
+  background-color: grey;
 }
 
-h1{
-    color: white;
+h1 {
+  color: white;
 }
