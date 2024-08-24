@@ -1,0 +1,126 @@
+@import url("https://fonts.google.com/specimen/Montserrat");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: orange;
+  font-family: "Montserrat";
+  cursor:pointer;
+}
+
+.all-buttons {
+  width: 700px;
+  height: 500px;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.all-buttons:hover{
+    background-color: lightblue;
+    
+}
+#show-double,
+#show-triple,
+#show-half,
+#count-clicks,
+#color-btn {
+  width: 120px;
+  height: 50px;
+  background-color: blueviolet;
+  border-radius: 7px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+#color-btn:hover{
+    background-color: olive;
+    color:white;
+}
+
+#show-double:hover{
+ background-color:green ;
+ color:white;
+}
+
+#show-triple:hover{
+    background-color:blueviolet;
+    color:white;
+}
+
+#show-half:hover{
+    background-color:red;
+    color:white;
+   }
+
+#count-clicks:hover{
+    background-color:blueviolet;
+    color:white;
+}
+#show-triple {
+  background-color: greenyellow;
+}
+
+#show-half {
+  background-color: rgb(122, 46, 122);
+}
+
+#count-clicks {
+  background-color: palevioletred;
+}
+
+#color-btn {
+  background-color: rgba(103, 99, 151, 0.811);
+}
+
+#show-double {
+  background-color: rgb(91, 83, 80);
+}
+
+.grouped-btn,
+.fav-btn,
+.count-clicks {
+  background-color: black;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 150px;
+  border-radius: 7px;
+}
+
+.fav-btn {
+  background-color: rgb(179, 162, 162);
+  text-align: center;
+}
+
+.fav-btn:hover{
+    background-color:blueviolet;
+}
+
+.count-clicks {
+  background-color: paleturquoise;
+}
+
+.grouped-btn:hover{
+    background-color:purple;
+}
+.count-clicks:hover{
+    background-color: grey;
+}
+
+h1{
+    color: white;
+}
