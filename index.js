@@ -29,7 +29,7 @@ let name = "Jean Claude";
 
 let greetingMessage = greetings + "," + " " + name + "!";
 
-//document.write(greetingMessage);
+document.write(greetingMessage);
 
 //Exercise 3
 
