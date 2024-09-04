@@ -68,3 +68,57 @@ document.getElementById("count-clicks").addEventListener("click", () => {
   count += 1;
   console.log("clicked" + " " + count);
 });
+
+//CODE-WARS CHALLENGES
+
+/*It's pretty straightforward. Your goal is to create a function 
+that removes the first and last characters of a string. 
+You're given one parameter, the original string. 
+You don't have to worry about strings with less than two characters*/
+
+//Solution
+
+let string = "nshimiyimana";
+
+function removeChar(){
+ let firstLastChar = string.slice(1, -1)
+ console.log(firstLastChar);
+}
+
+removeChar();
+
+/*Q2You get an array of numbers, return the sum of all of the positives ones.
+
+Example [1,-4,7,12] => 1 + 7 + 12 = 20 */
+var array =[1, -4, 7, 12];
+
+//SOLUTION
+
+ function positiveSum(){
+  let positiveNums = array.filter((num) =>
+    num >=0
+  )
+ 
+  let sum = positiveNums.reduce((accumulator, currentValue)=>
+     accumulator + currentValue,0)
+ console.log(sum);
+}
+
+ positiveSum();
+
+ /*Q3 Given a random non-negative number, 
+ you have to return the digits of this number
+  within an array in reverse order.*/
+
+  //SOLUTION
+
+  function reversedNum(){
+
+    let number = 5326;
+    let number2 = number.toString().
+    split("").reverse().map(Number);
+
+    console.log(number2);
+  }
+
+  reversedNum();
