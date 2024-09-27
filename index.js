@@ -122,3 +122,16 @@ var array =[1, -4, 7, 12];
   }
 
   reversedNum();
+  function removeDuplicate(){
+    let thisArray = [1, 2, 1, 3, 2,4];
+    let unDuplicate = new Set(thisArray);
+    let array2 = [...unDuplicate];
+    console.log(unDuplicate);
+
+    return array2;
+  }
+ 
+  console.log(removeDuplicate());
+
+  
+  
