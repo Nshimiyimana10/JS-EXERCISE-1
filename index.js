@@ -133,5 +133,19 @@ var array =[1, -4, 7, 12];
  
   console.log(removeDuplicate());
 
+  function checkDuplicate(){
+    let myStr =["a", "b", "a","b", "a"]
+    let sortedArray = myStr.sort();
+    console.log(sortedArray.length)
+    if(sortedArray[0] ===sortedArray[1]===sortedArray[2]|| sortedArray[3]===sortedArray[4]){
+      return true;
+    }
+
+    else{
+    return false;
+    }
+  }
+
   
+  console.log(checkDuplicate());
   
