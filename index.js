@@ -133,6 +133,8 @@ var array =[1, -4, 7, 12];
  
   console.log(removeDuplicate());
 
+  //CHECK TRIPLE AND DOUBLE IDENTICAL ARRAY
+
   function checkDuplicate(){
     let myStr =["a", "b", "a","b", "a"]
     let sortedArray = myStr.sort();
